@@ -28,7 +28,7 @@ package
 
 	redbox.graphics.beginFill(0xFF0000, 1);
 
-	redbox.graphics.drawRect(0, 0, 100, 100);
+	redbox.graphics.drawRect(0, 0, 200, 200);
 
 	addChild(redbox);
 
