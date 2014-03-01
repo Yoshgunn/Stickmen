@@ -5,6 +5,7 @@ package
     public class MenuState extends FlxState
     {
         private var startButton:FlxButton;
+		private var optionsButton:FlxButton; 
  
         public function MenuState()
         {
@@ -14,7 +15,7 @@ package
         {
             FlxG.mouse.show();
             startButton = new FlxButton(120, 90, "Start Game", startGame);
-			optionsButton = new FlxButton(120, 90, "Options", options);
+			optionsButton = new FlxButton(240, 180, "Options", options);
             add(startButton);
 			add(optionsButton);
         }
