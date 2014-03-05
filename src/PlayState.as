@@ -10,7 +10,7 @@ package
  
         override public function create():void
         {
-            add(new FlxSprite);
+            add(new Player);
         }
     }
 }
